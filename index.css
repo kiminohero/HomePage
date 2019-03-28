@@ -1,0 +1,46 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-light,
+.bg-light {
+  background-color: #dc9860 !important;
+  color: white;
+}
+
+.navbar-light .navbar-brand {
+  color: rgba(255, 255, 255);
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: white;
+}
+
+.tag-col {
+  background-color: #dc9860;
+  height: 19vw;
+}
+
+.tagContent {
+  margin-right: 9%;
+  color: white;
+}
+
+.tagContent .headNav {
+  text-align: right;
+  font-size: 3vw;
+}
+
+.tag {
+  width: 48%;
+  float: right;
+}
+
+.tag .tagline {
+  font-size: 2vw;
+  text-align: justify;
+}
