@@ -6,6 +6,8 @@ body {
   padding: 0;
 }
 
+/* NAVBAR CUSTOMIZATIONS */
+
 .navbar-light,
 .bg-light {
   background-color: #dc9860 !important;
@@ -21,8 +23,12 @@ body {
 }
 
 .tag-col {
+  position: sticky;
   background-color: #dc9860;
   height: 19vw;
+  top: 55px;
+  margin-bottom: 15px;
+  z-index: 1000;
 }
 
 .tagContent {
@@ -44,3 +50,31 @@ body {
   font-size: 2vw;
   text-align: justify;
 }
+
+/* SECTION 1 CUSTOMIZATION */
+
+.col-md-6.sec1 {
+  padding: 0;
+  height: 300px;
+  position: relative;
+}
+
+/*  .col-md-6.sec1 {
+  max-height: 100%;
+} */
+
+.col-md-6.sec1 .img-fluid {
+  width: 100%;
+  height: 100%;
+}
+
+.col-md-6.sec1 .sec1text {
+  position: absolute;
+  top: 30%;
+  left: 10%;
+  width: 80%;
+  margin: auto 0;
+  color: white;
+}
+
+/* SECTION 2 */
