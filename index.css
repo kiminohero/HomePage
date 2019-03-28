@@ -23,7 +23,7 @@ body {
 }
 
 .tag-col {
-  position: sticky;
+  position: fixed;
   background-color: #dc9860;
   height: 19vw;
   top: 55px;
@@ -52,10 +52,13 @@ body {
 }
 
 /* SECTION 1 CUSTOMIZATION */
-
+/* 
+.num1 {
+  margin-top: 24vw;
+} */
 .col-md-6.sec1 {
   padding: 0;
-  height: 300px;
+  height: 30vw;
   position: relative;
 }
 
@@ -78,3 +81,36 @@ body {
 }
 
 /* SECTION 2 */
+.imgth {
+  width: 30%;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.col-md-6.test2 {
+  position: relative;
+  overflow: hidden;
+  padding: 0;
+}
+
+.col-md-6.test2 .cardText {
+  position: absolute;
+  width: 60%;
+  top: 0;
+  left: -100%;
+  z-index: -1;
+  overflow: hidden;
+  transition: 0.5s;
+}
+
+.col-md-6.test2 .cardText h4 {
+  font-size: 10px;
+}
+
+.col-md-6.test2 .cardText p {
+  font-size: 8px;
+}
+
+.test2:hover .cardText {
+  left: 40%;
+}
