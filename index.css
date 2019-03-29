@@ -23,7 +23,7 @@ body {
 }
 
 .tag-col {
-  position: fixed;
+  position: sticky;
   background-color: #f59f81;
   height: 19vw;
   top: 55px;
@@ -178,6 +178,8 @@ hr {
   margin-bottom: 5px;
 }
 
+/* SETTING SECTION BACKGROUND */
+
 .num4 {
   background: #e8eae9;
 }
@@ -195,4 +197,41 @@ hr {
 
 .row > button > i {
   color: #f9b852;
+}
+
+/* Health care section inside section 3 */
+
+.health {
+  border-top: 5px solid #5c5e60;
+  border-bottom: 5px solid #5c5e60;
+  background: white;
+  padding: 10px;
+}
+
+.flex-container > .hmenu {
+  border: none;
+}
+
+.hmenu .hicon {
+  background-color: #f05f3f;
+  width: 50px;
+  margin: 0 auto;
+  color: white;
+  border-radius: 50%;
+  font-size: 30px;
+}
+
+/* SECTION 4 */
+
+.wpap {
+  background-image: url(https://essential.themepunch.com/wp-content/uploads/2014/03/harrison.jpg);
+  height: 100%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.wpap .card {
+  background: rgba(0, 0, 0, 0.87) !important;
+  color: #f1f1f1;
+  font-weight: bolder;
 }
